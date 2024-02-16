@@ -65,5 +65,37 @@ public class Muffin extends Pastry{
     public void setFruit(double fruit) {
         this.fruit = fruit;
     }
+
+    @Override
+    public String getIngredients() {
+        return flour + " cups of flour" + '\n' +
+                water + " cups of water" + '\n' +
+                salt + " tsps of salt" + '\n' +
+                sugar + " tsp of sugar" + '\n' +
+                bakingPowder + " teaspoons baking powder" + '\n' +
+                oil + " neutral-flavored oil" + '\n' +
+                egg + " egg" + '\n' +
+                milk + " cups of milk" + '\n' +
+                vanilla + " teaspoons of vanilla extract" + '\n' +
+                fruit + " ounces fresh or frozen blueberries" + '\n';
+    }
+
+    @Override
+    public String toString() {
+        return "Muffin{" +
+                "breadName='" + breadName + '\'' +
+                ", flour=" + flour +
+                ", water=" + water +
+                ", salt=" + salt +
+                ", sugar=" + sugar +
+                ", bakingPowder=" + bakingPowder +
+                ", yeast=" + yeast +
+                ", oil=" + oil +
+                ", egg=" + egg +
+                ", milk=" + milk +
+                ", vanilla=" + vanilla +
+                ", fruit=" + fruit +
+                '}';
+    }
 }
 

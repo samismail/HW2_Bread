@@ -74,6 +74,6 @@ public class Bread {
 
     @Override
     public String toString() {
-        return "A recipe of " + breadName + '\n';
+        return getIngredients() + '\n' + "A recipe of " + breadName + '\n';
     }
 }
