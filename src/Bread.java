@@ -67,20 +67,13 @@ public class Bread {
     public void setYeast(double yeast) {
         this.yeast = yeast;
     }
-    public String getIngredients() {
 
+    public String getIngredients() {
+        return "this is from the bread class";
     }
 
     @Override
     public String toString() {
-        return "Bread{" +
-                "breadName='" + breadName + '\'' +
-                ", flour=" + flour +
-                ", water=" + water +
-                ", salt=" + salt +
-                ", sugar=" + sugar +
-                ", bakingPowder=" + bakingPowder +
-                ", yeast=" + yeast +
-                '}';
+        return "A recipe of " + breadName + '\n';
     }
 }
