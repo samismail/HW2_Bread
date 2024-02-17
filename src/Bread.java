@@ -76,6 +76,10 @@ public class Bread {
                 yeast + " tsp of yeast";
     }
 
+    public String bake() {
+        return "The " + breadName + " is baked now.";
+    }
+
     @Override
     public String toString() {
         return getIngredients() + '\n' + "A recipe of " + breadName + '\n';

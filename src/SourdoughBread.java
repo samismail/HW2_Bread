@@ -16,6 +16,11 @@ public class SourdoughBread extends Bread{
     }
 
     @Override
+    public String bake() {
+        return super.bake();
+    }
+
+    @Override
     public String getIngredients() {
         return super.getIngredients() + '\n' +
                 bakingPowder + " teaspoons of baking powder" + '\n' +

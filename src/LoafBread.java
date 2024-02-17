@@ -14,6 +14,11 @@ public class LoafBread extends Bread{
     }
 
     @Override
+    public String bake() {
+        return super.bake();
+    }
+
+    @Override
     public String getIngredients() {
         return super.getIngredients() + '\n';
     }

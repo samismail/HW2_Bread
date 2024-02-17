@@ -67,6 +67,11 @@ public class Muffin extends Pastry{
     }
 
     @Override
+    public String bake() {
+        return super.bake();
+    }
+
+    @Override
     public String getIngredients() {
         return flour + " cups of flour" + '\n' +
                 water + " cups of water" + '\n' +

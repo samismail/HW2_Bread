@@ -34,6 +34,11 @@ public class Bagel extends Bread{
     }
 
     @Override
+    public String bake() {
+        return super.bake();
+    }
+
+    @Override
     public String getIngredients() {
         return "Ingredients of " + breadName + " are:" + '\n' +
                 flour + " cups of flour" + '\n' +
