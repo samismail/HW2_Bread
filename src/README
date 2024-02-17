@@ -1,0 +1,4 @@
+Each java class will output ingredients and directions on how to make breads and pastries.
+The superclass "Bread" will set up the frame on how the other classes will work
+The "Pastry" class will also help with the pastries but will also extend to the "Bread" class
+the remaining classes will all derive from the "Bread" and "Pastry" class and output the specific directions and ingredients
