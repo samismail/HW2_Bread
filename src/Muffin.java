@@ -96,7 +96,7 @@ public class Muffin extends Pastry{
                 "   then use a fork to combine. Do not over mix. batter will be thick" + '\n' +
                 "5. Divide the batter between muffin cups." + '\n' +
                 "6. Bake muffins 15 to 20 minutes or until tops are no longer wet and a toothpick inserted " + '\n' +
-                "   into the middle of a muffin comes out with crumbs, not wet batter." + '\n';
+                "   into the middle of a muffin comes out with crumbs, not wet batter." + '\n' + bake() + '\n';
     }
 }
 

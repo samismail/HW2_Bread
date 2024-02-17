@@ -40,6 +40,6 @@ public class SourdoughBread extends Bread{
         "7. Spray the loaf with luke warm water."  + '\n' +
         "8. Bake the bread at 400°F for 20 minutes, until deep golden brown."  + '\n' +
         "9. Remove the bread from the oven." + '\n' +
-        "10.Let the bread cool until good to eat.";
+        "10.Let the bread cool until good to eat." + '\n' + bake() + '\n';
     }
 }

@@ -39,6 +39,6 @@ public class LoafBread extends Bread{
                 "5. Gently deflate the dough and cut it in half. Pat each half into a rough 6” x 8” oval." + '\n' +
                 "6. Working with one piece of dough at a time, grab a short side and fold the dough like a business letter" + '\n' +
                 "7. Place the loaves, seam-side down, on a baking sheet and let the loaves rise for 45 minutes" + '\n' +
-                "8. Preheat the oven to 450 and Bake the bread for 20 to 25 minutes, until the crust is golden brown. " + '\n';
+                "8. Preheat the oven to 450 and Bake the bread for 20 to 25 minutes, until the crust is golden brown. " + '\n' + bake() + '\n';
     }
 }
