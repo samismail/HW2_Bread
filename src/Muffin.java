@@ -82,20 +82,17 @@ public class Muffin extends Pastry{
 
     @Override
     public String toString() {
-        return "Muffin{" +
-                "breadName='" + breadName + '\'' +
-                ", flour=" + flour +
-                ", water=" + water +
-                ", salt=" + salt +
-                ", sugar=" + sugar +
-                ", bakingPowder=" + bakingPowder +
-                ", yeast=" + yeast +
-                ", oil=" + oil +
-                ", egg=" + egg +
-                ", milk=" + milk +
-                ", vanilla=" + vanilla +
-                ", fruit=" + fruit +
-                '}';
+        return super.toString() + '\n' +
+                "1. Heat oven to 400° Fahrenheit" + '\n' +
+                "2. Whisk the flour, sugar, baking powder, and salt in a large bowl. "+ '\n' +
+                "3. Add oil, milk and the egg to a measuring jug that holds at least 1 cup " + '\n' +
+                "   then add vanilla and whisk to combine." + '\n' +
+                "4. Finally mix milk mixture to the bowl with dry ingredients " + '\n' +
+                "   then use a fork to combine. Do not over mix. batter will be thick" + '\n' +
+                "5. Divide the batter between muffin cups." + '\n' +
+                "6. Bake muffins 15 to 20 minutes or until tops are no longer wet and a toothpick inserted " + '\n' +
+                "   into the middle of a muffin comes out with crumbs, not wet batter." + '\n';
     }
 }
+
 

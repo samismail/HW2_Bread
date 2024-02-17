@@ -1,7 +1,7 @@
 public class Pastry extends Bread{
 
-    public Pastry(String breadName, double flour, double water, double salt, double sugar, double bakingPowder) {
-        super(breadName, flour, water, salt, sugar, bakingPowder);
+    public Pastry(String breadName, double flour, double water, double salt, double sugar, double bakingPowder, double yeast) {
+        super(breadName, flour, water, salt, sugar, bakingPowder, yeast);
     }
 
     @Override
