@@ -15,10 +15,10 @@ public class Muffin extends Pastry{
     protected double vanilla;
     protected double fruit;
 
-    public Muffin(String breadName, double flour, double salt, double sugar,
-                  double bakingPowder, double oil, double egg,
+    public Muffin(String breadName, double flour, double water, double salt, double sugar,
+                  double bakingPowder, double yeast, double oil, double egg,
                   double milk, double vanilla, double fruit) {
-        super("Blueberry Muffins", 1.5, .25, .75, 2.0, 2);
+        super("Blueberry Muffins", 1.5, .25, .75, 2.0, 2, yeast);
         this.oil = oil;
         this.egg = egg;
         this.milk = milk;
@@ -70,8 +70,8 @@ public class Muffin extends Pastry{
     public String getIngredients() {
         return flour + " cups of flour" + '\n' +
                 water + " cups of water" + '\n' +
-                salt + " tsps of salt" + '\n' +
-                sugar + " tsp of sugar" + '\n' +
+                salt + " teaspoons of salt" + '\n' +
+                sugar + " teaspoons of sugar" + '\n' +
                 bakingPowder + " teaspoons baking powder" + '\n' +
                 oil + " neutral-flavored oil" + '\n' +
                 egg + " egg" + '\n' +

@@ -2,8 +2,8 @@ public class SourdoughBread extends Bread{
 
     protected double sourStarter;
 
-    public SourdoughBread(String breadName, double flour, double water, double salt, double sugar, double yeast, double sourStarter) {
-        super("Sourdough Bread", 5.0, 1.5, 2.5, 1.0, 1.0);
+    public SourdoughBread(String breadName, double flour, double water, double salt, double sugar, double bakingPowder, double yeast, double sourStarter) {
+        super("Sourdough Bread", 5.0, 1.5, 2.5, 1.0, 1.0, 1.0);
         this.sourStarter = sourStarter;
     }
 
@@ -17,12 +17,9 @@ public class SourdoughBread extends Bread{
 
     @Override
     public String getIngredients() {
-        return "Ingredients of " + breadName + " are:" + '\n' +
-        flour + " cups of flour" + '\n' +
-        water + " cups of water" + '\n' +
-        salt + " tsps of salt" + '\n' +
-        yeast + " tsp of yeast" + '\n' +
-        sourStarter + " cup of ripe sourdough starter";
+        return super.getIngredients() + '\n' +
+                bakingPowder + " teaspoons of baking powder" + '\n' +
+                sourStarter + " cup of ripe sourdough starter"  + '\n';
     }
 
     @Override

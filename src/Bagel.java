@@ -54,7 +54,7 @@ public class Bagel extends Bread{
                 "   but not sticky, about 15 turns (it should not leave dough on your hand when you pull away)." + '\n' +
                 "4. Divide into 4 equal balls. Roll each ball into 3/4-inch thick ropes and join the ends to form bagels. " + '\n' +
                 "   (or you can make a ball and poke a hole in the center then stretch it slightly)" + '\n' +
-                "5. Top with egg wash and sprinkle both sides with seasoning of your choice if desired. " +
+                "5. Top with egg wash and sprinkle both sides with seasoning of your choice if desired. " + '\n'+
                 "   Bake on the top rack of the oven for 25 minutes." + '\n';
     }
 }

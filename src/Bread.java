@@ -69,7 +69,11 @@ public class Bread {
     }
 
     public String getIngredients() {
-        return "this is from the bread class";
+        return "Ingredients of " + breadName + " are:" + '\n' +
+                flour + " cups of flour" + '\n' +
+                water + " cups of water" + '\n' +
+                salt + " tsps of salt" + '\n' +
+                yeast + " tsp of yeast";
     }
 
     @Override
