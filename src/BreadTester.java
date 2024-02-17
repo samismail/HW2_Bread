@@ -8,7 +8,8 @@ public class BreadTester {
         System.out.println(loafBread1);
         Muffin blueberryMuffin = new Muffin("Blueberry Muffins", 1.5, .25, .75, 2.0, 2, 0, .75, 1, .5, 1.5, 8.0);
         System.out.println(blueberryMuffin);
-        SourdoughBread bread = new SourdoughBread("Sourdough Bread", 5.0, 1.5, 2.5, 1.0, 1.0, 1.0, )
+        SourdoughBread bread = new SourdoughBread("Sourdough Bread", 5.0, 1.5, 2.5, 1.0, 1.0, 1.0, 1.0);
+        System.out.println(bread);
 
     }
 }
