@@ -1,12 +1,3 @@
-/*
-5 cups (540g to 600g) King Arthur Unbleached Bread Flour
-1 tablespoon (11g) granulated sugar
-2 1/4 teaspoons instant yeast
-2 1/2 teaspoons (15g) table salt
-1 2/3 cups (379g) water, lukewarm (90°F to 110°F)
-yellow cornmeal, for coating the pan
- */
-
 public class LoafBread extends Bread{
 
     public LoafBread(String breadName, double flour, double water, double salt, double sugar, double bakingPowder, double yeast) {

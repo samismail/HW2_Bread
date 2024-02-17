@@ -1,13 +1,3 @@
-/*      1 ½ cups (195g) all-purpose flour
-        3/4 cup (150g) granulated sugar, plus 1 tablespoon for muffin tops
-        1/4 teaspoon fine sea salt
-        2 teaspoons baking powder
-        1/3 cup (80ml) neutral-flavored oil, safflower, avocado, and vegetable oil are great
-        1 large egg
-        1/3 to 1/2 cup (80ml to 120ml) milk, dairy and non-dairy both work
-        1 ½ teaspoons vanilla extract
-        6 to 8 ounces fresh or frozen blueberries, generous 1 cup
- */
 public class Muffin extends Pastry{
     protected double oil;
     protected double egg;

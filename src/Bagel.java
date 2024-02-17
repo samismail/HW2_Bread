@@ -1,11 +1,3 @@
-/*
-1 cup All Purpose Flour (unbleached, whole wheat or gluten-free mix, 5 oz in weight)
-2 teaspoons Baking Powder (make sure it 's not expired or it wo n't rise)
-¾ teaspoon Kosher Salt (use less if using table salt)
-1 cup Non-Fat Greek Yogurt (not regular yogurt, it will be too sticky, Stonyfield)
-1 Whole Egg (or egg white, beaten)
- */
-
 public class Bagel extends Bread{
     protected double egg;
     protected double yogurt;
